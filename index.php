@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/web182.css">
-    <title>WEB 182</title>
-</head>
-<body>
-    <h1>WEB 182</h1>
-    <main>
-        <section id="assignments">  
-        <ul>
-           <li> <a href="asgn06/public/">asgn06</a></li>
-           <li> <a href="asgn07-new-edit/public/salamanders">asgn07</a></li>
-        </ul>
-        </section>
-    </main>
-</body>
-</html>
+<?php require_once('/../private/initialize.php'); ?>
+
+<?php $page_title = 'Home'; ?>
+<?php include(SHARED_PATH . '/salamanderHeader.php'); ?>
+
+<div id="content">
+    <h1>Main Menu</h1>
+    <ul>
+      <li><a href="salamanders">Salamanders</a></li>
+    </ul>
+</div>
+
+<?php include(SHARED_PATH . '/salamanderFooter.php'); ?>
